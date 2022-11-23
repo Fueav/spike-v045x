@@ -1,0 +1,12 @@
+syntax = "proto3";
+package spikev045x.spikev045x;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "spike-v045x/x/spikev045x/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}
