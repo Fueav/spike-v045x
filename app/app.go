@@ -105,12 +105,12 @@ import (
 	monitoringpkeeper "github.com/tendermint/spn/x/monitoringp/keeper"
 	monitoringptypes "github.com/tendermint/spn/x/monitoringp/types"
 
-	"spike-v045x/app/ante"
-	"spike-v045x/docs"
+	"github.com/Fueav/spike-v045x/app/ante"
+	"github.com/Fueav/spike-v045x/docs"
 
-	spikev045xmodule "spike-v045x/x/spikev045x"
-	spikev045xmodulekeeper "spike-v045x/x/spikev045x/keeper"
-	spikev045xmoduletypes "spike-v045x/x/spikev045x/types"
+	spikev045xmodule "github.com/Fueav/spike-v045x/x/spikev045x"
+	spikev045xmodulekeeper "github.com/Fueav/spike-v045x/x/spikev045x/keeper"
+	spikev045xmoduletypes "github.com/Fueav/spike-v045x/x/spikev045x/types"
 	// this line is used by starport scaffolding # stargate/app/moduleImport
 )
 

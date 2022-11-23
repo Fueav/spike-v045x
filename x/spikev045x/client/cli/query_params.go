@@ -3,10 +3,10 @@ package cli
 import (
 	"context"
 
+	"github.com/Fueav/spike-v045x/x/spikev045x/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/spf13/cobra"
-	"spike-v045x/x/spikev045x/types"
 )
 
 func CmdQueryParams() *cobra.Command {

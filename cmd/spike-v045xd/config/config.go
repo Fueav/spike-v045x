@@ -4,7 +4,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	ethermint "github.com/evmos/ethermint/types"
 
-	"spike-v045x/app"
+	"github.com/Fueav/spike-v045x/app"
 )
 
 func InitSDKConfig() {

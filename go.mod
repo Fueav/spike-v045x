@@ -1,4 +1,4 @@
-module spike-v045x
+module github.com/Fueav/spike-v045x
 
 go 1.18
 

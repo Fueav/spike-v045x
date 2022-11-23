@@ -3,10 +3,10 @@ package keeper
 import (
 	"context"
 
+	"github.com/Fueav/spike-v045x/x/spikev045x/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
-	"spike-v045x/x/spikev045x/types"
 )
 
 func (k Keeper) Params(c context.Context, req *types.QueryParamsRequest) (*types.QueryParamsResponse, error) {

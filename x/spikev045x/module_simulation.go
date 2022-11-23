@@ -3,15 +3,15 @@ package spikev045x
 import (
 	"math/rand"
 
+	"github.com/Fueav/spike-v045x/testutil/sample"
+	spikev045xsimulation "github.com/Fueav/spike-v045x/x/spikev045x/simulation"
+	"github.com/Fueav/spike-v045x/x/spikev045x/types"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
-	"spike-v045x/testutil/sample"
-	spikev045xsimulation "spike-v045x/x/spikev045x/simulation"
-	"spike-v045x/x/spikev045x/types"
 )
 
 // avoid unused import issue

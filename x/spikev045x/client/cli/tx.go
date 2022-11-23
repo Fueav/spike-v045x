@@ -8,7 +8,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/client"
 	// "github.com/cosmos/cosmos-sdk/client/flags"
-	"spike-v045x/x/spikev045x/types"
+	"github.com/Fueav/spike-v045x/x/spikev045x/types"
 )
 
 var (

@@ -10,7 +10,7 @@ import (
 	// "github.com/cosmos/cosmos-sdk/client/flags"
 	// sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"spike-v045x/x/spikev045x/types"
+	"github.com/Fueav/spike-v045x/x/spikev045x/types"
 )
 
 // GetQueryCmd returns the cli query commands for this module

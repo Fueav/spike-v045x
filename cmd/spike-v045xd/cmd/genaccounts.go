@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
+	spkkeyring "github.com/Fueav/spike-v045x/crypto/keyring"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/crypto/keyring"
@@ -18,7 +19,6 @@ import (
 	ethermint "github.com/evmos/ethermint/types"
 	evmtypes "github.com/evmos/ethermint/x/evm/types"
 	"github.com/spf13/cobra"
-	spkkeyring "spike-v045x/crypto/keyring"
 )
 
 // AddGenesisAccountCmd returns add-genesis-account cobra Command.

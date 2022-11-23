@@ -1,13 +1,13 @@
 package main
 
 import (
+	cmdcfg "github.com/Fueav/spike-v045x/cmd/config"
+	"github.com/Fueav/spike-v045x/cmd/spike-v045xd/cmd"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"os"
-	cmdcfg "spike-v045x/cmd/config"
-	"spike-v045x/cmd/spike-v045xd/cmd"
 
+	"github.com/Fueav/spike-v045x/app"
 	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
-	"spike-v045x/app"
 )
 
 func main() {

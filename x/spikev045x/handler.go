@@ -3,10 +3,10 @@ package spikev045x
 import (
 	"fmt"
 
+	"github.com/Fueav/spike-v045x/x/spikev045x/keeper"
+	"github.com/Fueav/spike-v045x/x/spikev045x/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"spike-v045x/x/spikev045x/keeper"
-	"spike-v045x/x/spikev045x/types"
 )
 
 // NewHandler ...

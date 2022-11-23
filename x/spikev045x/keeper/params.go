@@ -1,8 +1,8 @@
 package keeper
 
 import (
+	"github.com/Fueav/spike-v045x/x/spikev045x/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"spike-v045x/x/spikev045x/types"
 )
 
 // GetParams get all parameters as types.Params

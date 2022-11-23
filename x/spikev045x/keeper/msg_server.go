@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	"spike-v045x/x/spikev045x/types"
+	"github.com/Fueav/spike-v045x/x/spikev045x/types"
 )
 
 type msgServer struct {

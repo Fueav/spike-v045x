@@ -1,9 +1,9 @@
 package spikev045x
 
 import (
+	"github.com/Fueav/spike-v045x/x/spikev045x/keeper"
+	"github.com/Fueav/spike-v045x/x/spikev045x/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"spike-v045x/x/spikev045x/keeper"
-	"spike-v045x/x/spikev045x/types"
 )
 
 // InitGenesis initializes the capability module's state from a provided genesis
